@@ -1,0 +1,44 @@
+.tie{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:#0321db;
+    p{
+        float: left;
+        border:1px solid #0948d1;
+        width:43.5px;
+        height:43px;
+        text-align:center;
+        text-align: center;
+        line-height: 45px;
+        font-family:PingFangSC-Medium;
+        font-size:18px;
+        color:#eee;;
+        cursor: pointer;
+    }
+    .active{
+        background:#4487ff;
+    }
+}
+.thenumb{
+    position: relative;
+    font-family:PingFangSC-Regular;
+    font-size:14px;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left:0;
+    p{
+        width: 33.333%;
+        text-align:center;
+        color:#f8e71c;
+        float:left;
+    }
+    p:nth-child(2){
+        color:#7ed321
+    }
+    p:nth-child(3){
+        color:#db3114
+    }
+}

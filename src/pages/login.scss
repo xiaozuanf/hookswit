@@ -1,0 +1,66 @@
+.login{
+    background:url('../image/loginbg.png') center center no-repeat;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    .login-title{
+        width: 100%;
+        text-align: center;
+        opacity:0.91;
+        font-family:PingFangSC-Semibold;
+        font-size:64px;
+        color:#ffffff;
+        padding-top: 99px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{margin-right:40px;}
+    }
+    .login-text{
+        font-family:STHeitiSC-Light;
+        font-size:18px;
+        color:rgba(255,255,255,0.8);
+        padding-top:20px;
+        text-align:center;
+    }
+    .login-dot{
+        overflow: hidden;
+        width: 353px;
+        margin:0 auto;
+        margin-top:102px;
+        .login-dot-li{
+            float: left;
+            border:2px solid #f4f7ff;
+            width:17px;
+            height:17px;
+            border-radius:100%;
+            margin-right:45px;
+        }
+        .login-dot-li:last-child{margin-right:0;}
+        .active{background-color:#f4f7ff}
+    }
+    .login-number{
+        padding-top:99px;
+        overflow: hidden;
+        width: 500px;
+        margin:0 auto;
+        .login-numli{
+            float: left;
+            opacity:0.86;
+            border:1px solid #f1f5ff;
+            width:99px;
+            height:99px;
+            border-radius:100%;
+            text-align: center;
+            line-height:99px;
+            font-family:PingFangSC-Semibold;
+            font-size:56px;
+            color:#edf2ff;
+            margin-right:97px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .login-numli:nth-child(3n){margin-right:0}
+    }
+}

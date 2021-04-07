@@ -1,0 +1,102 @@
+.leftInside {
+    height: 100%;
+    overflow: hidden;
+    .left-serise {
+      padding-left: 10px;
+      background: rgba(2, 15, 177, 0.4);
+      border: 2px solid #0033d8;
+      width: 866px;
+      height: 216px;
+      font-family: PingFangSC-Semibold;
+      font-size: 20px;
+      color: #ffffff;
+      .left-serise-li {
+        float: left;
+        margin-left: 8px;
+        margin-top: 22px;
+        > div {
+          float: left;
+          line-height: 40px;
+        }
+        .left-serise-one {
+          width: 157px;
+        }
+        .left-serise-two {
+          width: 43px;
+        }
+        .left-serise-num {
+          font-size: 22px;
+          background: #316aff;
+          width: 99px;
+          height: 40px;
+          margin-right: 8px;
+          text-align: center;
+        }
+        .left-serise-num2 {
+          width: 129px;
+        }
+      }
+    }
+    .left-echarts {
+      padding-left: 9px;
+      margin-top: 19px;
+      background: rgba(2, 15, 177, 0.4);
+      border: 1px solid #0031d6;
+      width: 868px;
+      height: 728px;
+      .left-echarts-div1 {
+        border: 1px solid #0d6be0;
+        width: 833px;
+        height: 218px;
+        margin: 18px 10px;
+        padding-left: 10px;
+        .electricity {
+          float: left;
+        }
+        .powers {
+          float: left;
+        }
+        .left-echarts-change {
+          float: left;
+          width: 80px;
+          font-size: 18px;
+          color: #fff;
+          margin: 0 30px;
+          font-family: PingFangSC-Semibold;
+          > div {
+            height: 52px;
+            padding: 4px 20px;
+            text-align: center;
+            background: #0321db;
+            margin-top: 9px;
+            cursor: pointer;
+          }
+          .active {
+            background: #4487ff;
+          }
+        }
+      }
+      .left-echarts-div2 {
+        padding-left: 10px;
+        > div {
+          float: left;
+          border: 1px solid #0d6be0;
+          margin: 0 10px 18px 0;
+          width: 273px;
+          height: 220px;
+          position: relative;
+          .text {
+            position: absolute;
+            font-family: PingFangSC-Medium;
+            font-size: 14px;
+            font-weight: 5000;
+            color: #eeeeee;
+            bottom: 13px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
